@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <title>Anne Creates</title>
-    <!-- <link rel="icon" href="./public/mylogoIcon.ico" type="image/ico" sizes="16x16"> -->
+    <link rel="icon" href="../public/images/annecreates.ico" type="image/ico" sizes="16x16">
         <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="./public/main.css"> 
+       <!-- CSS -->
+    <link rel="stylesheet" href="./main.css"> 
 
 </head>
 <body>
@@ -47,20 +47,46 @@
               </div>
             </nav>
         </section> 
-    <div class="row">
-        <div id="CarouselAnne">
-            <!-- <img id="myImage" class="img-fluid" src="./public/portfoli picture2.png"> -->
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="4000">
-                  <img src="#" class="d-block myImage" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="4000">
-                  <img src="#" class="d-block myImage"  alt="...">
-                </div>                      
-              </div>         
+        <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-        </div>
+            <div class="carousel-inner">
+            
+              <div class="carousel-item active" data-bs-interval="2000">            
+                <img src="../public/images/carousel1.jpeg" class="d-block w-100" alt="...">           
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>HUNDREDS OF AMAZING DESTINATIONS</h5>
+                  <p>We offer a variety of destinations to travel to, ranging from exotic to some extreme ones. They include very popular countries and cities like Paris, Rio de Janeiro, Cairo and a lot of others</p>
+                </div>
+              </div>
+            
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="../public/images/carousel1.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>UNIQUE TRAVEL INSIGHTS</h5>
+                  <p>Our team is ready to provide you with unique weekly travel insights that include photos, videos, and articles about untravelled tourist paths. We know everything about the places you’ve never been to!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../public/images/Untitled2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>THE TRIP OF YOUR DREAM</h5>
+                  <p>Our travel agency is ready to offer you an exciting vacation that is designed to fit your own needs and wishes. Whether it’s an exotic cruise or a trip to your favorite resort, you will surely have the best experience.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </div>
     <section id="ourMission" class="container-fluid">
         <h5 class="sectionTitle">Our Mission</h5>
@@ -139,20 +165,7 @@
                               </div>
                             </div>
                         </div>
-                        <!-- <div class="col"> <!--Workshop7 and 8 -->
-                            <div class="card h-100">
-                              <img src="./public/Workshop8.png" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">School Project 5 (Android app)</h5>
-                                <p class="card-text">- Android Studio</p>
-                                <p class="card-text">- Java, Restful APIs</p>
-                                <p class="card-text">- Xampp MySql</p>       
-                              </div>
-                              <div class="card-footer">
-                                <small class="text-muted">October 2021</small>
-                              </div>
-                            </div>
-                        </div> -->
+                         
                         
                         
                        </div> <!--cards row end -->
