@@ -98,3 +98,13 @@ body {
 #Setmore_button_iframe {
   color: chartreuse;
 }
+#setmoreButton {
+   width: 100%;
+   align-items: center;
+}
+
+#copyright {
+  font-size: .5 em;
+  width: 100%;
+  text-align: center;
+}
