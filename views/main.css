@@ -78,7 +78,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 70%;
   border: chartreuse 1px dashed;
 }
 #servicing {
@@ -97,6 +97,7 @@ body {
   align-items: center;
   background-size: cover;
   width: 100%;
+  padding: 60px 10px 100px 10px;
   /* opacity: 0.2;  */
   /* background-image: url("https://c8.alamy.com/zooms/9/461ee8dc738d4c6e89e5e25e44b110bb/2ddj297.jpg"); */
   /* background-image: url("https://i.pinimg.com/originals/84/f9/56/84f956c9f8f02f01950a75604e448248.jpg"); */
@@ -104,18 +105,19 @@ body {
 }
 
 #ourMissionTitle {
-  padding-top: 25px;
+  /* padding: 25px; */
+  padding: 0px 5px 0px 5px;
   text-align: center;
   width: 100%;
-  color: rgb(226, 149, 175);
-  font-size: 4em;
+  color: rgb(175, 119, 133);
+  font-size: 3.5em;
   font-family: "WindSong", cursive;
 }
 
 #ourMissionBody {
   font-family: "Roboto Slab", serif;
   width: 100%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -124,6 +126,15 @@ body {
   padding-bottom: 50px;
 }
 
+#ourServices .sectionTitle {
+  border: 1px solid rgb(43, 226, 125);
+  text-align: center;
+  /* padding-bottom: 50px; */
+}
+
+.col {
+  margin-bottom: 20px;
+}
 .card {
   border-radius: 40px;
   margin: 40px;
@@ -161,6 +172,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* margin-bottom: 20px; */
 }
 
 .container:hover > img {
@@ -179,7 +191,11 @@ cursor: pointer;
 }
 
 #setmoreContainer {
-  border: blue 1px solid;
+  border: blue 2px solid;
+  /* position: relative; */
+  align-items: center;
+  text-align: center;
+  padding: 50px 0px 100px 0px;
 
 }
 
@@ -190,7 +206,7 @@ cursor: pointer;
   /* position:fixed; */
   border: red 1px solid;
   /* position: absolute; */
-  /* margin-top: 20px; */
+  margin-top: 50px;
   /* padding-top: 40px; */
   /* display: flex; */
   
@@ -200,21 +216,21 @@ cursor: pointer;
 
 a#Setmore_button_iframe
 {
-     /* position: relative; */
+     /* position: absolute; */
      /* position:absolute; */
 }
 a#Setmore_button_iframe > img {
     display: none;
 }
 a#Setmore_button_iframe:after {
-     content:"Book  Appointment";
+     content:"GET STARTED NOW";
      /* justify-content: center; */
      /* position: absolute; */
      left: 0;
      /* top: 100%; */
      white-space: nowrap;
      border: none;
-     border-radius: 13px;
+     border-radius: 8px;
      color: white;
      padding: 16px 32px;
      /* text-align: center; */
