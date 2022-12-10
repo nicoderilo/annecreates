@@ -41,8 +41,12 @@ body {
   font-size: larger;
   font-family: "Roboto Slab", serif;
 }
+
+#carouselContainer {
+  border: deeppink 1px solid;
+}
 .carousel-item {
-  height: 100vh;
+  /* height: 100vh; */
   /* width: 100%; */
 }
 
@@ -75,6 +79,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border: chartreuse 1px dashed;
 }
 #servicing {
   font-family: "Roboto Slab", serif;
@@ -83,13 +88,15 @@ body {
   color: rgb(121, 41, 81);
   text-align: center;
   margin-bottom: 15px;
+  /* height: 20%; */
 }
 #ourMission {
-  height: 350px;
+  height: 65%;
   /* font-size: 30px; */
   /* border: 3pc solid red; */
   align-items: center;
   background-size: cover;
+  width: 100%;
   /* opacity: 0.2;  */
   /* background-image: url("https://c8.alamy.com/zooms/9/461ee8dc738d4c6e89e5e25e44b110bb/2ddj297.jpg"); */
   /* background-image: url("https://i.pinimg.com/originals/84/f9/56/84f956c9f8f02f01950a75604e448248.jpg"); */
@@ -108,8 +115,13 @@ body {
 #ourMissionBody {
   font-family: "Roboto Slab", serif;
   width: 100%;
-  font-size: 2em;
+  font-size: 2rem;
   text-align: center;
+}
+
+#ourServices {
+  border: 1px solid rgb(43, 226, 125);
+  padding-bottom: 50px;
 }
 
 .card {
@@ -165,10 +177,66 @@ cursor: pointer;
 #Setmore_button_iframe {
   color: chartreuse;
 }
-#setmoreButton {
-  width: 100%;
-  align-items: center;
+
+#setmoreContainer {
+  border: blue 1px solid;
+
 }
+
+#setmoreButton {
+  /* width: 100%; */
+  /* align-items: center; */
+  /* text-align: center; */
+  /* position:fixed; */
+  border: red 1px solid;
+  /* position: absolute; */
+  /* margin-top: 20px; */
+  /* padding-top: 40px; */
+  /* display: flex; */
+  
+
+}
+
+
+a#Setmore_button_iframe
+{
+     /* position: relative; */
+     /* position:absolute; */
+}
+a#Setmore_button_iframe > img {
+    display: none;
+}
+a#Setmore_button_iframe:after {
+     content:"Book  Appointment";
+     /* justify-content: center; */
+     /* position: absolute; */
+     left: 0;
+     /* top: 100%; */
+     white-space: nowrap;
+     border: none;
+     border-radius: 13px;
+     color: white;
+     padding: 16px 32px;
+     /* text-align: center; */
+     text-decoration: none;
+     /* display: inline-block; */
+     font-size: 16px;
+     /* margin: 4px 2px; */
+     -webkit-transition-duration: 0.4s; /* Safari */
+     transition-duration: 0.4s;
+     cursor: pointer;
+     background-color: rgb(248, 222, 235);
+     color: black;
+     /* border: 2px solid #fab7dc; */
+    font-family: sans-serif;
+
+
+}
+a#Setmore_button_iframe:hover:after {
+    background-color: #27C3BB;
+    color: white;
+}
+
 
 #copyright {
   font-size: 0.5 em;
