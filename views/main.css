@@ -259,3 +259,8 @@ a#Setmore_button_iframe:hover:after {
   width: 100%;
   text-align: center;
 }
+
+#copyright a{
+ text-decoration: none;
+ color: rgb(42, 38, 58);
+}
