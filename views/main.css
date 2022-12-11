@@ -262,13 +262,17 @@ a#Setmore_button_iframe:hover:after {
 #leftFooter {
   /* border: steelblue solid 2px; */
   padding-left: 30px;
+  padding-right: 30px;
   margin-bottom: 20px;
+  /* text-justify: auto; */
   border-right: rgb(240, 198, 169) solid 1px;
+  text-align: justify;
   /* padding-top: 20px; */
   /* top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px; */
+  color: #ffffff;
 }
 #rightFooter {
   padding-top: 50px;
