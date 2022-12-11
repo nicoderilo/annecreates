@@ -36,21 +36,32 @@ td {
 
 body {
   background-color: #fcfbf4;
+  /* background-color: #e0c200; */
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
   /* overflow: hidden; */
 }
+
+#mainContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
 .nav-link {
   color: rgb(121, 41, 81) !important;
   font: weight 100px;
   font-size: larger;
   font-family: "Roboto Slab", serif;
+
+  
 }
 
 #carouselContainer {
   border: deeppink 1px solid;
+ 
 }
 
 .carousel .item {
