@@ -35,7 +35,12 @@ td {
 }
 
 body {
-  background-color: rgb(252, 251, 244);
+  background-color: #fcfbf4;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  /* overflow: hidden; */
 }
 .nav-link {
   color: rgb(121, 41, 81) !important;
@@ -303,8 +308,8 @@ a#Setmore_button_iframe:hover:after {
   
 }
 #logoContainer img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   
 }
 
@@ -336,9 +341,10 @@ a#Setmore_button_iframe:hover:after {
   /* border: fuchsia solid 3px; */
   padding-top: 10px;
   border-top: rgb(250, 184, 184) solid 1px;
+  color: #ffffff;
 }
 
 #copyright a {
   text-decoration: none;
-  color: rgb(42, 38, 58);
+  color: rgb(255, 227, 246);
 }
