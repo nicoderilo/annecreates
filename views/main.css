@@ -60,7 +60,7 @@ body {
 }
 
 #carouselContainer {
-  border: deeppink 1px solid;
+  /* border: deeppink 1px solid; */
  
 }
 
@@ -93,7 +93,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-  border: chartreuse 1px dashed;
+  /* border: chartreuse 1px dashed; */
 }
 #servicing {
   font-family: "Roboto Slab", serif;
@@ -136,12 +136,12 @@ body {
 }
 
 #ourServices {
-  border: 1px solid rgb(43, 226, 125);
+  /* border: 1px solid rgb(43, 226, 125); */
   padding-bottom: 50px;
 }
 
 #ourServices .sectionTitle {
-  border: 1px solid rgb(43, 226, 125);
+  /* border: 1px solid rgb(43, 226, 125); */
   text-align: center;
   /* padding-bottom: 50px; */
 }
