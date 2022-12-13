@@ -37,7 +37,7 @@ td {
 body {
   background-color: #fcfbf4;
   /* background-color: #e0c200; */
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   margin: 0px;
   padding: 0px;
@@ -49,6 +49,12 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
+}
+
+.navbar {            
+  
+  background-image: linear-gradient(to right,#f8bc76e0,#ec7272); 
+  
 }
 .nav-link {
   color: rgb(121, 41, 81) !important;
@@ -205,8 +211,16 @@ body {
 } 
 */
 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
 #setmoreContainer {
   /* border: blue 2px solid; */
+  /* background-image: ; */
+  background-image: url(../public/images/watercolor.jpeg);
+  background-size: cover;
   /* position: relative; */
   align-items: center;
   text-align: center;
@@ -214,6 +228,8 @@ body {
 }
 
 #setmoreButton {
+  text-decoration: none;
+  
   /* width: 100%; */
   /* align-items: center; */
   /* text-align: center; */
@@ -228,13 +244,17 @@ body {
 a#Setmore_button_iframe {
   /* position: absolute; */
   /* position:absolute; */
+  
 }
 
 a#Setmore_button_iframe > img {
   display: none;
+  text-decoration: none;
+  
 }
 a#Setmore_button_iframe:after {
   content: "GET STARTED NOW";
+  
   /* justify-content: center; */
   /* position: absolute; */
   left: 0;
@@ -252,14 +272,15 @@ a#Setmore_button_iframe:after {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: rgb(243, 113, 113);
+  background-color: #f37171;
   /* color: rgb(250, 99, 99); */
   /* color: black; */
   /* border: 2px solid #fab7dc; */
   font-family: sans-serif;
 }
 a#Setmore_button_iframe:hover:after {
-  background-color: #27c3bb;
+  background-color: #f8bc76e0;
+  
   color: white;
 }
 
@@ -277,6 +298,7 @@ a#Setmore_button_iframe:hover:after {
 
 #leftFooter {
   /* border: steelblue solid 2px; */
+  font-family: "Roboto Slab", serif;
   padding-left: 30px;
   padding-right: 30px;
   margin-bottom: 20px;
@@ -292,6 +314,7 @@ a#Setmore_button_iframe:hover:after {
 }
 #rightFooter {
   padding-top: 50px;
+  /* font-family: "Roboto Slab", serif; */
   /* border: rgb(159, 34, 170) solid 2px; */
   /* display: flex; */
   /* justify-content: center; */
@@ -299,12 +322,14 @@ a#Setmore_button_iframe:hover:after {
 #followUs{
   color: rgb(255, 253, 250);
   font-size: 2em;
+  font-family: "Roboto Slab", serif;
 }
 #social{
   padding-top: 0px;
   margin-top: 0pt;
   color: rgb(255, 253, 250);
   font-size: .8em;
+  font-family: "Roboto Slab", serif;
 }
 #logoContainer{
   width: 100%;
