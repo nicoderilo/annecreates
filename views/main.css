@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap");
 /* - Bootstrap icon CDN */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 
@@ -42,6 +42,7 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden; /*hide scrool bar vertical*/
   /* overflow: hidden; */
 }
 
@@ -52,10 +53,8 @@ body {
   padding: 0px;
 }
 
-.navbar {            
-  
-  background-image: linear-gradient(to right,#f8bc76e0,#f88da6); 
-  
+.navbar {
+  background-image: linear-gradient(to right, #f8bc76e0, #f88da6);
 }
 .nav-link {
   /* color: rgb(121, 41, 81) !important; */
@@ -63,13 +62,10 @@ body {
   font: weight 100px;
   font-size: larger;
   font-family: "Roboto Slab", serif;
-
-  
 }
 
 #carouselContainer {
   /* border: deeppink 1px solid; */
- 
 }
 
 .carousel .item {
@@ -100,7 +96,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 45%;
   /* border: chartreuse 1px dashed; */
 }
 #servicing {
@@ -133,10 +129,10 @@ body {
   width: 100%;
   color: rgb(175, 119, 133);
   font-size: 3em;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   /* font-family: "WindSong", cursive; */
   /* font-family: 'Pacifico', cursive; */
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 
 #ourMissionBody {
@@ -144,14 +140,13 @@ body {
   width: 100%;
   font-size: 1.8rem;
   text-align: justify;
-  letter-spacing: .02em;
+  letter-spacing: 0.02em;
   /* text-align: center; */
 }
 
 #ourServices {
   /* border: 1px solid rgb(43, 226, 125); */
   padding-bottom: 50px;
-
 }
 
 #ourServicesTitle {
@@ -159,7 +154,7 @@ body {
   text-align: center;
   font-size: 3rem;
   padding-top: 20px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   color: rgb(175, 119, 133);
   /* height: 10px; */
   /* padding-bottom: 50px; */
@@ -174,7 +169,7 @@ body {
   margin: 40px;
   overflow: hidden;
   border: 0;
-  
+
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.07);
   transition: all 0.15s ease;
 }
@@ -211,7 +206,7 @@ body {
   justify-content: center;
   /* margin-bottom: 20px; */
 }
-.card-footer{
+.card-footer {
   align-items: center;
   text-align: center;
 }
@@ -230,12 +225,15 @@ body {
   /* color: chartreuse; 
 } 
 */
-
-
+#galleryContatiner {
+  border: red solid 2px;
+  height: 400px;
+  /* margin: 100px 0px 100px 0px; */
+}
 #setmoreContainer {
   /* border: blue 2px solid; */
   /* background-image: ; */
-  background-image: url(../public/images/watercolor5.png);
+  background-image: url(../public/images/watercolor6.png);
   background-size: cover;
   /* position: relative; */
   align-items: center;
@@ -247,14 +245,16 @@ body {
   color: rgb(175, 119, 133);
   font-size: 1.2rem;
 }
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
 }
 
 #setmoreButton {
   text-decoration: none;
-  
+
   /* width: 100%; */
   /* align-items: center; */
   /* text-align: center; */
@@ -269,13 +269,11 @@ a:hover, a:visited, a:link, a:active
 a#Setmore_button_iframe {
   /* position: absolute; */
   /* position:absolute; */
-  
 }
 
 a#Setmore_button_iframe > img {
   display: none;
   text-decoration: none;
-  
 }
 a#Setmore_button_iframe:after {
   content: "GET STARTED NOW";
@@ -306,7 +304,7 @@ a#Setmore_button_iframe:after {
 }
 a#Setmore_button_iframe:hover:after {
   background-color: #f8bc76e0;
-  
+
   color: white;
 }
 
@@ -316,7 +314,7 @@ a#Setmore_button_iframe:hover:after {
   /* background-color: #E97777; */
   /* background-color: rgb(255, 159, 159); */
   /* background-image: linear-gradient(to right,#f8bc76e0,#ec7272);  */
-  background-image: linear-gradient(to right,#f8bc76e0,#f88da6); 
+  background-image: linear-gradient(to right, #f8bc76e0, #f88da6);
   /* f3cdd6 */
   width: 100%;
   padding: 50px 10px 10px 10px;
@@ -347,34 +345,31 @@ a#Setmore_button_iframe:hover:after {
   /* display: flex; */
   /* justify-content: center; */
 }
-#followUs{
+#followUs {
   color: rgb(255, 253, 250);
   font-size: 2em;
   font-family: "Roboto Slab", serif;
 }
-#social{
+#social {
   padding-top: 0px;
   margin-top: 0pt;
   color: rgb(255, 253, 250);
-  font-size: .8em;
+  font-size: 0.8em;
   font-family: "Roboto Slab", serif;
 }
-#logoContainer{
+#logoContainer {
   width: 100%;
   align-items: center;
   text-align: center;
   color: #f0eef8;
-  
 }
 #logoContainer p {
   font-size: 5em;
   color: #f0eef8;
-  
 }
 #logoContainer img {
   width: 120px;
   height: 120px;
-  
 }
 
 #iconsContainer {
