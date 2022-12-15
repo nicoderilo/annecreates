@@ -276,7 +276,7 @@ a#Setmore_button_iframe > img {
   text-decoration: none;
 }
 a#Setmore_button_iframe:after {
-  content: "GET STARTED NOW";
+  content: "GET STARTED";
   font-family: "Lato", sans-serif;
   /* color: rgb(175, 119, 133); */
   /* justify-content: center; */
