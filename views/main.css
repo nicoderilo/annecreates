@@ -3,6 +3,7 @@
 /* - Bootstrap icon CDN */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 
+
 body,
 html,
 div,
@@ -162,12 +163,15 @@ body {
 
 .col {
   margin-bottom: 20px;
-  height: 450px;
+  height: 350px;
+  /* border: #25de51 solid 4px; */
 }
 .card {
   border-radius: 40px;
+  border: #25de51 solid 9px;
   margin: 40px;
   overflow: hidden;
+  /* height: 1000px; */
   border: 0;
 
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.07);
@@ -179,11 +183,15 @@ body {
 }
 .card-title {
   text-align: center;
+  
+
 }
 .card-body .card-title {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   letter-spacing: 0.3px;
+  /* height: 50px; */
+  border: red solid 1px;
   font-size: 24px;
   color: #121212;
 }
@@ -191,35 +199,42 @@ body {
 .card-text {
   font-family: "Lato", sans-serif;
   font-weight: 400;
+  border: rgb(68, 24, 181) solid 1px;
   font-size: 15px;
   letter-spacing: 0.3px;
+  text-align: center;
   color: #4e4e4e;
 }
 
-.card .container {
+ .container {
   width: 88%;
   background: #f0eef8;
+  border: #0ed4ee solid 7px;
   border-radius: 30px;
-  height: 140px;
+  /* height: 200px; */
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   /* margin-bottom: 20px; */
 }
 .card-footer {
   align-items: center;
   text-align: center;
+  
 }
 .container:hover > img {
   transform: scale(1.2);
 }
 
 .container img {
-  padding: 85px;
-  margin-top: -40px;
-  margin-bottom: -40px;
+  border: #f37171 solid 1px;
+  /* padding: 65px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
   transition: 0.4s ease;
   cursor: pointer;
+  width: 90px;
+  border: #e504da solid 4px;
 }
 /* #Setmore_button_iframe {
   /* color: chartreuse; 
@@ -227,9 +242,30 @@ body {
 */
 #galleryContatiner {
   border: red solid 2px;
-  height: 400px;
+  /* position:absolute; */
+  /* padding: 5px; */
+  /* height: 40px; */
+  /* width: 1500px; */
+  /* display:grid; */
   /* margin: 100px 0px 100px 0px; */
 }
+@media (max-width:567px) {
+  #galleryContatiner {
+    border: rgb(9, 216, 50) solid 2px;
+    /* width: 1000px; */
+    /* display: inline-block; */
+    /*  */
+    /* height: 300px; */
+  }
+
+  #galleryContatiner img {
+    /* width:2000px; */
+    /* height: 90px; */
+  }
+}
+
+
+
 #setmoreContainer {
   /* border: blue 2px solid; */
   /* background-image: ; */
@@ -407,3 +443,5 @@ a#Setmore_button_iframe:hover:after {
   text-decoration: none;
   color: rgb(255, 227, 246);
 }
+
+/* ------- */
