@@ -238,7 +238,6 @@ body {
 } 
 */
 .modal-header {
-  
   text-align: center;
 }
 .modal-body {
@@ -247,8 +246,7 @@ body {
 }
 
 .modal-body img {
-  
-height: 500px;
+  height: 500px;
 }
 
 #galleryBigContainer {
@@ -269,9 +267,14 @@ height: 500px;
   /* margin: 100px 0px 100px 0px; */
 }
 @media (max-width: 567px) {
-  #galleryBigContainer {
-    border: rgb(9, 216, 50) solid 2px;
+  /* #Gallery {
     visibility: hidden;
+  } */
+
+  #galleryBigContainer {
+    border: rgb(9, 216, 50) solid 20px;
+    visibility: hidden;
+    display: none;
   }
 
   #galleryBigContainer img {
@@ -281,43 +284,30 @@ height: 500px;
     /* visibility: hidden; */
   }
   #gallerySmallContatiner {
-    visibility:visible
-  }
-
-  .card {
-    /* width: 60%; */
-    /* border: red 2px solid; */
+    visibility: visible;
+    visibility: inherit;
   }
 
   .modal-body img {
-  
     height: 400px;
-    }
+  }
 }
-
-@media (min-width: 1900px) {
+@media (min-width: 900px) {
   #gallerySmallContatiner {
-    visibility:visible
-  }
-  .card {
-    /* width: 60%; */
-    width: 68%;
-    border: rgb(87, 0, 250) 2px solid;
-
-    /* border: rgb(0, 248, 41) 2px solid; */
+    visibility: hidden;
+    display: none;
   }
 }
 
-@media (max-width: 900px) {
-  /* .card {
-    width: 58%;
-    border: rgb(0, 250, 250) 2px solid;
-
-  } */
-}
-
-.carousel-item {
+/* .carousel-item {
   max-height: 1000px;
+} */
+
+@media (max-width: 1900px) {
+  #gallerySmallContatiner {
+    /* visibility: hidden; */
+    /* display: none; */
+  }
 }
 
 #setmoreContainer {
