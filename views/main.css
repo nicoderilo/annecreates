@@ -251,28 +251,28 @@ body {
 
 #galleryBigContainer {
   background-color: #faf4f9;
-
-  /* visibility:hidden; */
-  /* height: 1000px; */
-  /* border: red solid 2px; */
-  /* position:absolute; */
+  border: solid 0.5px #ffe2fa;
   padding: 100px 20px 100px 20px;
   margin: 50px 0px 100px 0px;
-  /* background-image: linear-gradient(to right, #f8bc76e0, #f88da6); */
-  /* background-image: linear-gradient(to right, #edeceae0, #f6f0f2); */
-
-  /* height: 40px; */
-  /* width: 1500px; */
-  /* display:grid; */
-  /* margin: 100px 0px 100px 0px; */
 }
+
+#gallerySmallContainer {
+  background-color: #faf4f9;
+  border: solid 0.5px #ffe2fa;
+  padding: 100px 20px 100px 20px;
+}
+/* ----------------MEDIA ------------*/
 @media (max-width: 567px) {
   /* #Gallery {
     visibility: hidden;
   } */
+  #myLogo img {
+    width: 60%;
+    /* border: chartreuse 1px dashed; */
+  }
 
   #galleryBigContainer {
-    border: rgb(9, 216, 50) solid 20px;
+    /* border: rgb(9, 216, 50) solid 20px; */
     visibility: hidden;
     display: none;
   }
@@ -283,7 +283,7 @@ body {
     /* height: 90px; */
     /* visibility: hidden; */
   }
-  #gallerySmallContatiner {
+  #gallerySmallContainer {
     visibility: visible;
     visibility: inherit;
   }
@@ -293,7 +293,7 @@ body {
   }
 }
 @media (min-width: 900px) {
-  #gallerySmallContatiner {
+  #gallerySmallContainer {
     visibility: hidden;
     display: none;
   }
@@ -304,12 +304,12 @@ body {
 } */
 
 @media (max-width: 1900px) {
-  #gallerySmallContatiner {
+  #gallerySmallContainer {
     /* visibility: hidden; */
     /* display: none; */
   }
 }
-
+/* ----------------MEDIA END------------*/
 #setmoreContainer {
   /* border: blue 2px solid; */
   /* background-image: ; */
